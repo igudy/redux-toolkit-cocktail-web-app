@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
+import SearchInput from "../components/SearchInput";
+import CocktailList from "../components/CocktailList";
 
 const index = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <SearchInput />
+      <CocktailList />
     </div>
-    // Search Input
-    // Cocktail list
-  )
-}
+  );
+};
 
-export default index
+export default index;
